@@ -25,7 +25,8 @@ Os scripts SQL são executados na seguinte ordem:
 - `02-dimensoes-prontas.sql` — estruturas e dimensões fornecidas;
 - `03-suas-dimensoes.sql` — carga de `dim_categoria`, `dim_praca` e `bridge_loja_praca`;
 - `04-fato-pedido.sql` — carga da tabela `fato_pedido`;
-- `05-respostas.sql` — consultas das cinco perguntas de negócio.
+- `05-respostas.sql` — consultas das cinco perguntas de negócio;
+- `WATCHME.mp4` — vídeo de apresentação do projeto.
 
 ### Grão da tabela fato
 
@@ -38,6 +39,10 @@ A `dim_tempo` é utilizada em dois papéis: data do pedido e data da entrega. A 
 ### Modelo dimensional
 
 ![Modelo dimensional — Rede Pata Amiga](modelo_dimensional_pata_amiga.png)
+
+### Vídeo de apresentação
+
+▶️ **[Assistir ao vídeo de apresentação](WATCHME.mp4)**
 
 ---
 
@@ -445,6 +450,7 @@ A reconciliação da P4 foi validada: **R$ 1.792.322,21** foram rateados entre a
 - [x] P4 — Praça de atendimento
 - [x] P5 — Expansão e limitações
 - [x] Diagrama do modelo inserido no README
+- [x] Vídeo de apresentação incluído e vinculado no README
 - [x] Revisão final das cinco respostas
 - [x] Finalização do Git/GitHub
 
